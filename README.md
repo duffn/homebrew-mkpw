@@ -1,18 +1,29 @@
-# Duffn Mkpw
+# mkpw Homebrew Tap
 
-## How do I install these formulae?
+This is the Homebrew Tap for [mkpw](https://github.com/duffn/mkpw).
 
-`brew install duffn/mkpw/<formula>`
+## Installation
 
-Or `brew tap duffn/mkpw` and then `brew install <formula>`.
+- Option 1
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
+```bash
+brew install duffn/mkpw/mkpw
+```
+
+- Option 2
+
+```bash
+brew tap duffn/mkpw
+brew install mkpw
+```
+
+- Option 3, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
 tap "duffn/mkpw"
-brew "<formula>"
+brew "mkpw"
 ```
 
-## Documentation
+## Usage
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+See the [mkpw repository](https://github.com/duffn/mkpw)
